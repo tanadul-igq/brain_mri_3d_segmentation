@@ -17,3 +17,16 @@ This is the sourcecode for EGBE601 Class Project
 - `LEARNING_RATE`: learning rate of a model
 3. Run `train.py` to train a model.
 4. After complete 1 epoch, the model checkpoint, prediction results, and score statistics will be saved in the model folder.
+5. Therefore, after complete `NUM_EPOCHS` epochs, the model folder will consist of checkpoints, prediction results, and score statistics of every epochs.
+
+## Inference
+1. Open `inference.py`.
+2. Adjust `SUBVOXEL_BATCH_SIZE`
+3. Run `inference.py`.
+4. The results will saved at `test_prediction_images` folder.
+
+## Image Visualization
+1. Open `image_visualization.py` or import it as a module others `*.py` file.
+2. This module provides 2 visualization function
+- `visualize_image(image_path: str)`: visualize the image with slider bar to investigate another slices smoothly.
+- `subplots_visualize_image(image_path: str, slice_list: list)`: visualize the image in subplots; selected the slices plane via adjust `slice_list`.
