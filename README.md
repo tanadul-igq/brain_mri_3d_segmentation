@@ -11,8 +11,8 @@ This is the sourcecode for EGBE601 Class Project
 ## Model Training and Validation
 1. Open `train.py`
 2. Adjust the hyperparameters to obtain various of models. Adjustable hyperparameters consists of 
-    `NUM_EPOCHS`: number of epochs
-    `SUBVOXEL_BATCH_SIZE`: batch size of subvoxel
-    `DATA_AUGMENTATION`: data augmentation trigger
-    `LEARNING_RATE`: learning rate of a model
+-`NUM_EPOCHS`: number of epochs
+-`SUBVOXEL_BATCH_SIZE`: batch size of subvoxel
+-`DATA_AUGMENTATION`: data augmentation trigger
+-`LEARNING_RATE`: learning rate of a model
 3. Run `train.py` to train a model
