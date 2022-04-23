@@ -1,6 +1,5 @@
 # 3D U-Net for Brain Segmentation in MR Images
-This is the sourcecode for EGBE601 Class Project
-*By Tanadul Somboonwong 6437981*
+> This is the sourcecode for EGBE601 Class Project by Tanadul Somboonwong 6437981
 
 ## Dataset Preparation
 1. Download NFBS Repository.
