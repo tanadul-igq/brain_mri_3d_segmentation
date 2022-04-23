@@ -1,6 +1,13 @@
 # 3D U-Net for Brain Segmentation in MR Images
 This is the sourcecode for EGBE601 Class Project\
-by Tanadul Somboonwong 6437981
+by Tanadul Somboonwong 6437981\
+Reference from
+> Ronneberger, O., Fischer, P., & Brox, T. (2015, October). U-net: Convolutional networks for biomedical image segmentation. In International Conference on Medical image computing and computer-assisted intervention (pp. 234-241). Springer, Cham.\
+> \
+> Hwang, H., Rehman, H. Z. U., & Lee, S. (2019). 3D U-Net for skull stripping in brain MRI. Applied Sciences, 9(3), 569.
+
+In this class project, preliminary results are covered. To determine the best model, various of model are investigated over 10 epochs by varying the subvoxel batch size. Therefore, the obtained best model is using subvoxel batch size = 1 without data augmentation and found that the highest scores are presented at epoch 7. The accuracy is 99.59%; F1 score is 98.04%. The segmentation results are very satisfied.
+
 
 ## Dataset Preparation
 1. Download [NFBS Repository](http://preprocessed-connectomes-project.org/NFB_skullstripped/).
