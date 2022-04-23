@@ -1,8 +1,9 @@
 # 3D U-Net for Brain Segmentation in MR Images
-> This is the sourcecode for EGBE601 Class Project by Tanadul Somboonwong 6437981
+This is the sourcecode for EGBE601 Class Project\
+by Tanadul Somboonwong 6437981
 
 ## Dataset Preparation
-1. Download NFBS Repository.
+1. Download [NFBS Repository](http://preprocessed-connectomes-project.org/NFB_skullstripped/).
 2. Extract the dataset into a project directory. Name the folder as `NFBS_Dataset`.
 4. Open `nfbs_tvt_split.py`.
 5. Run `nfbs_tvt_split.py` to split and reorganize `NFBS_Dataset` to produce `NFBS_Dataset_TVT`.
